@@ -8,6 +8,7 @@ Commonly used migration commands:
 
 - npx knex migrate:make <name> <--- runs any pending migrations>
 - npx knex migrate:latest <---- run pending migrations to update the database>
+- npx knex migrate:rollback <--- rolls back most recent migrations>
 
 Track Food AKA menu items
 
